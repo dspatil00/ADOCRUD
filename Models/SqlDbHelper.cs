@@ -39,10 +39,13 @@ namespace ADOCRUD.Models
             return students;
         }
 
-        //public Student GetStudentByRN (int RN)
-        //{
+        public Student GetStudentByRN (int RN)
+        {
+            Student student = new Student();
+
+            string connectionString = "data source = Dinesh Patil PC";
             
-        //}
+        }
 
         public bool InsertStudent(Student student, out int studentRollNumber)
         {
